@@ -170,9 +170,7 @@ V217-M04:mtec1002 dylan.nanjad85$
 
 ==========
 17a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
-----------
-
-
+pwd
 
 ==========
 17b. If you're not in the right directory, type the following command:
@@ -193,25 +191,19 @@ strawbery
 lemon
 
 Use only one command to make all of these new directories.  Write what command you used below:
-----------
-
-
+mkdir -p pineapple/orange/strawberry/lemon
 
 ==========
 19. Make another directory called aardvark.  
 
 Write the command you used to create the directory below:
-----------
-
-
+mkdir aardvark
 
 ==========
 20. List the files and directories in the current directory using the long format.  
 
 What is the modified date of the aardvark directory?
-----------
-
-
+Jan 29 13:48
 
 ==========
 21. Make 3 directories nested within each other:
@@ -221,15 +213,13 @@ What is the modified date of the aardvark directory?
 * baz should be inside bar
 
 What command did you use?
-----------
-
-
+mkdir -p foo/bar/baz
 
 ==========
 22. Change your directory so that you're in the inner most directory (baz)
 
 What command did you use?
-----------
+cd ~/baz
 
 
 
