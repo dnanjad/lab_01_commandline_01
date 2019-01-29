@@ -41,9 +41,8 @@ $ mkdir animals
 $ ls
 
 Copy and paste the output below.
-----------
-
-
+animals
+V217-M04:mtec1002 dylan.nanjad85$ 
 
 ==========
 6. Type:
@@ -52,9 +51,8 @@ $ mkdir food
 $ ls
 
 Copy and paste the output below.
-----------
-
-
+animals	food
+V217-M04:mtec1002 dylan.nanjad85$ 
 
 ==========
 7. Type:
@@ -63,9 +61,8 @@ $ mkdir -p foo/bar/baz/qux
 $ ls
 
 Copy and paste the output below.
-----------
-
-
+animals	foo	food
+V217-M04:mtec1002 dylan.nanjad85$ 
 
 ==========
 8. Type:
@@ -74,9 +71,8 @@ $ cd foo/bar/baz/qux
 $ pwd
 
 Copy and paste the output below.
-----------
-
-
+/Users/dylan.nanjad85/mtec1002/foo/bar/baz/qux
+V217-M04:qux dylan.nanjad85$ 
 
 ==========
 9. Type:
@@ -85,7 +81,8 @@ $ cd ../..
 $ pwd
 
 Copy and paste the output below.
-----------
+/Users/dylan.nanjad85/mtec1002/foo/bar
+V217-M04:bar dylan.nanjad85$ 
 
 
 
@@ -96,9 +93,8 @@ $ cd -
 $ pwd
 
 Copy and paste the output below.
-----------
-
-
+/Users/dylan.nanjad85/mtec1002/foo/bar/baz/qux
+V217-M04:qux dylan.nanjad85$ 
  
 ==========
 11. Type:
@@ -107,9 +103,8 @@ $ cd ../../../..
 $ pwd
 
 Copy and paste the output below.
-----------
-
-
+/Users/dylan.nanjad85/mtec1002
+V217-M04:mtec1002 dylan.nanjad85$ 
 
 ==========
 12. Type:
@@ -119,9 +114,8 @@ $ rmdir animals
 $ ls -l
 
 Copy and paste the first two lines from the output into the space below.
-----------
-
-
+total 0
+drwxr-xr-x  3 dylan.nanjad85  ACADEMIC\Domain Users  96 Jan 29 13:29 foo
 
 ==========
 13. Type:
@@ -130,9 +124,8 @@ $ cd ~
 $ pwd
 
 Copy and paste the output into the space below.
-----------
-
-
+/Users/dylan.nanjad85
+V217-M04:~ dylan.nanjad85$ 
 
 ==========
 14. Type:
@@ -141,7 +134,8 @@ $ cd /Volumes
 $ pwd
 
 Copy and paste the output into the space below.
-----------
+/Volumes
+V217-M04:Volumes dylan.nanjad85$ 
 
 
 
@@ -152,9 +146,8 @@ $ cd /unknown_folder
 $ pwd
 
 Copy and paste the output into the space below.
-----------
-
-
+/Volumes
+V217-M04:Volumes dylan.nanjad85$ 
 
 ==========
 15. Type:
@@ -163,9 +156,8 @@ $ cd ~/mtec1002
 $ pwd
 
 Copy and paste the output into the space below.
-----------
-
-
+/Users/dylan.nanjad85/mtec1002
+V217-M04:mtec1002 dylan.nanjad85$ 
 
 ==========
 16. Type:
@@ -173,9 +165,8 @@ Copy and paste the output into the space below.
 $ hostname
 
 Copy and paste the output into the space below.
-----------
-
-
+V217-M04.local
+V217-M04:mtec1002 dylan.nanjad85$ 
 
 ==========
 17a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
