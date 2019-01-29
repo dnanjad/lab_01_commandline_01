@@ -30,8 +30,8 @@ Check that the output ends with mtec1002 (something like this: /Users/joe/mtec10
 If it doesn't start at #1 again, or ask for help before moving on!
 
 Copy and paste the output of pwd below.
-----------
-
+/Users/dylan.nanjad85/mtec1002
+V217-M04:mtec1002 dylan.nanjad85$ 
 
 
 ==========
