@@ -77,7 +77,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-/Users/girlswhocode/mma/foo/bar/baz/qux
+/Users/mma/foo/bar/baz/qux
 
 
 ==========
@@ -195,7 +195,7 @@ cd ~/mtec1002
 Otherwise skip this question/step!
 ----------
 
-
+pwd
 
 ==========
 18. Create the following directories, with each one inside each other.  The first one, pinapple, is the inner most:
@@ -208,7 +208,7 @@ lemon
 Use only one command to make all of these new directories.  Write what command you used below:
 ----------
 
-
+mkdir -p lemon/strawbery/orange/pineapple 
 
 ==========
 19. Make another directory called aardvark.  
@@ -216,7 +216,7 @@ Use only one command to make all of these new directories.  Write what command y
 Write the command you used to create the directory below:
 ----------
 
-
+mkdir aardvark
 
 ==========
 20. List the files and directories in the current directory using the long format.  
@@ -224,7 +224,7 @@ Write the command you used to create the directory below:
 What is the modified date of the aardvark directory?
 ----------
 
-
+Mar 11 15:18
 
 ==========
 21. Make 3 directories nested within each other:
@@ -236,7 +236,7 @@ What is the modified date of the aardvark directory?
 What command did you use?
 ----------
 
-
+mkdir -p foo/bar/baz
 
 ==========
 22. Change your directory so that you're in the inner most directory (baz)
@@ -244,7 +244,7 @@ What command did you use?
 What command did you use?
 ----------
 
-
+cd foo/bar/baz
 
 ==========
 23. Change your directory so that you're two directories up (foo)
@@ -252,43 +252,45 @@ What command did you use?
 What command did you use?
 ----------
 
+cd ../..
 
 ==========
 24. What command is used to delete empty directories?
 ----------
 
-
+rmdir
 
 ==========
 25. What command is used to print out your current working directory?
 ----------
 
-
+pwd
 
 ==========
 26. What flag do I pass to ls to print out all files?
 ----------
 
-
+-a
 
 ==========
 27. What's the shortcut for home directory?
 ----------
 
-
+~
 
 ==========
 28. What's a pathname?
 ----------
 
-
+the general form of the name of a file or directory
 
 ==========
 29. What's a directory?
 ----------
 
-
+is a cataloging structure on a file system that references other files (and directories)
 
 ==========
 30. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+/Users/mma/Downloads
